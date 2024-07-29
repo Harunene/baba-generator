@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useEffect, FormEventHandler } from 'react';
 import Link from 'next/link';
+// @ts-ignore
 import { GIFEncoder, quantize, applyPalette } from 'gifenc';
 
 import { Button } from "@/components/ui/button";

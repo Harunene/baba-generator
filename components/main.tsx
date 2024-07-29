@@ -36,7 +36,7 @@ const Main = () => {
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [currentFrame, setCurrentFrame] = useState(0);
-  const animationRef = useRef<NodeJS.Timeout>(null);
+  const animationRef = useRef<NodeJS.Timeout>();
   const [frames, setFrames] = useState<ImageData[]>([]);
 
   const pixelSize = 4; // 픽셀화 크기

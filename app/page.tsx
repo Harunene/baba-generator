@@ -17,13 +17,13 @@ export async function generateMetadata(
       type: "article",
       title: 'baba generator',
       description: 'baba 이미지 생성기',
-      images: '/public/og-image.png'
+      images: '/og-image.png'
     },
     twitter: {
       card: "summary_large_image",
       title: 'baba generator',
       description: 'baba 이미지 생성기',
-      images: '/public/og-image.png'
+      images: '/og-image.png'
     }
   }
 }
